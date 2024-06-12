@@ -5,35 +5,30 @@ This is a Django-based web application that allows users to upload CSV files, pe
 
 ## Setup Instructions
 
-1. **Clone the repository:**
-    ```sh
-    git clone <YOUR_GITHUB_REPOSITORY_URL>
-    cd myproject
-    ```
 
-2. **Create and activate a virtual environment:**
+1. **Create and activate a virtual environment:**
     ```sh
     python -m venv venv
     source venv/bin/activate
     ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
     ```sh
     pip install -r requirements.txt
     ```
 
-4. **Run migrations:**
+3. **Run migrations:**
     ```sh
     python manage.py makemigrations
     python manage.py migrate
     ```
 
-5. **Run the development server:**
+4. **Run the development server:**
     ```sh
     python manage.py runserver
     ```
 
-6. **Access the application:**
+5. **Access the application:**
     Open a browser and navigate to `http://127.0.0.1:8000/upload/`.
 
 ## Features
